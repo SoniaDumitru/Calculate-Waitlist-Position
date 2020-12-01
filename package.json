@@ -1,0 +1,12 @@
+{
+  "name": "waitlist",
+  "version": "1.0.0",
+  "main": "calculatePosition.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "author": "sonia dumitru",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
