@@ -10,7 +10,7 @@ const calculatePosition = ({startingPosition, daysWaiting, numberOfReferrals}) =
       referralPosition = referralPosition + 1000/i;
       finalPosition = startingPosition - referralPosition;
     }
-    // finally we calculate position based on referrals and also by daysWaiting
+    // finally, calculate position based on referrals and also by daysWaiting
     finalPosition = finalPosition * Math.pow(1 - 0.0143, daysWaiting);
   return Math.round(finalPosition);
 }
